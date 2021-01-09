@@ -24,7 +24,7 @@ public class PlanTabPopulaters {
         Button newAddBtn = new Button("Add new day");
         Button templateAddBtn = new Button("Add day from template");
 
-        newAddBtn.setOnAction(event -> {
+        newAddBtn.setOnAction(event g-> {
             addDayPopulater(tab);
         });
         templateAddBtn.setOnAction(event -> {
